@@ -47,23 +47,22 @@ export default class AboutMe extends React.Component {
             University of Waterloo. Welcome to my website <span role="img" aria-label="emoji">😺</span>!
             <br />
             <br/>
-            I have interned at <span className={this.props.LandingColour}>Wish</span> and <span className={this.props.LandingColour}>Scotiabank</span> in the past, 
-            and will be heading back to Wish as a SWE intern in Winter 2021 to continue sharpening my skills.
+            I have interned at <span className={this.props.LandingColour}>Instagram</span>, <span className={this.props.LandingColour}>Wish</span> and 
+            <span className={this.props.LandingColour}> Scotiabank</span> in the past, 
+            and will be heading back to Waterloo for a school term in Fall 2021.
             I am still exploring different fields of computer science, but in general, I am interested in opportunities that are both educationally challenging and exciting!
             <br/>
             <b>
               I am currently looking for an internship opportunity for{" "}
               <b>
-                <span className={this.props.LandingColour}> Summer 2021</span>
+                <span className={this.props.LandingColour}> Winter 2022</span>
               </b>
               , so I would love to chat :)
             </b>
             <br />
             <br/>
             Speaking in terms of my technical interests, I am mostly
-            interested in backend development, though I have experience on the full-stack. For more
-            information about my skillset or past technical experiences, you can
-            head over to my skills summary or my coding experience section. Other than math and computer science, 
+            interested in backend development, though I have experience on the full-stack. Other than math and computer science, 
             I love to take electives in subjects like English and psychology. One of my favorite courses that I've 
             taken in university is an English course on modernist literature! 
             <br />

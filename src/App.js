@@ -8,7 +8,6 @@ import "./Styles/Coding.css";
 import Landing from "./Components/Landing.js";
 import Header from "./Components/Header";
 import AboutMe from "./Components/AboutMe";
-import SkillSummary from "./Components/SkillSummary";
 import CodingExperience from "./Components/CodingExperience";
 import { HashRouter, Route } from "react-router-dom";
 import { createBrowserHistory } from "history";
@@ -51,16 +50,6 @@ export default class App extends React.Component {
               path="/about"
               render={(props) => (
                 <AboutMe
-                  {...props}
-                  LandingColour={this.state.HeadingColour}
-                  BackgroundColour={this.state.BackgroundColour}
-                />
-              )}
-            />
-            <Route
-              path="/skills"
-              render={(props) => (
-                <SkillSummary
                   {...props}
                   LandingColour={this.state.HeadingColour}
                   BackgroundColour={this.state.BackgroundColour}

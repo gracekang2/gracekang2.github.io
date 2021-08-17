@@ -255,8 +255,7 @@ export default class SkillSummary extends React.Component {
 
   render() {
     return (
-      <div id="skillSummary">
-        <h1 className={this.props.LandingColour}>skills summary</h1>
+      <div>
         <h4>
           <span className={this.props.LandingColour}>
             Don't have a lot of time?
@@ -272,9 +271,6 @@ export default class SkillSummary extends React.Component {
           </a>{" "}
           to see my resume.
         </h4>
-        <p>
-          For more detailed info, check out my coding experience section.
-        </p>
         <div id="terminal">
           <div id="terminalHeader">
             <div id="redBtn" className="terminalBtn"></div>
