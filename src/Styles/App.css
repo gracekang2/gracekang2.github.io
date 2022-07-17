@@ -4,7 +4,7 @@
   margin: 0;
   position: relative;
   min-height: 100vh;
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #aboutMe,
@@ -18,7 +18,7 @@
 }
 
 .headingColour1 {
-  color: #ad8bba;
+  color: #000000;
 }
 
 .backgroundColour1 {

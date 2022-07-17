@@ -4,6 +4,7 @@
   background: url("../Imgs/blob.svg") no-repeat;
   padding-top: 100px;
   height: calc(100vh - 100px);
+  font-family: "M PLUS Rounded 1c", sans-serif;
 }
 
 #landingPhotoDiv {

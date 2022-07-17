@@ -11,10 +11,6 @@ export default class Header extends React.Component {
       name: "about me",
       href: "/about",
     },
-    {
-      name: "coding",
-      href: "/code",
-    },
   ];
 
   state = {};
