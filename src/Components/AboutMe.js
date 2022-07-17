@@ -28,12 +28,6 @@ export default class AboutMe extends React.Component {
             <span className="aboutMeAns">
               4A Computer Science, University of Waterloo <span role="img" aria-label="emoji">🦆</span>
             </span>
-            <br />
-            <br />
-            <span className={this.props.BackgroundColour + " aboutMeCategory"}>
-              From:
-            </span>
-            <span className="aboutMeAns">Toronto, Canada <span role="img" aria-label="emoji">🍁</span></span>
             </td>
           </tr>
         </table>
@@ -70,8 +64,8 @@ export default class AboutMe extends React.Component {
             <br/>
             Speaking in terms of my technical interests, I am mostly
             interested in backend development, though I have experience on the full-stack. Other than math and computer science, 
-            I love to take electives in subjects like English and psychology. One of my favorite courses that I've 
-            taken in university is an English course on modernist literature!
+            I love to take electives in subjects like English and psychology - one of my favorite courses that I've 
+            taken in university was on modernist literature.
             <br />
           </p>
         </div>
